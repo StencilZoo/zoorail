@@ -67,8 +67,9 @@ class StatusesController < ApplicationController
       @status = Status.find(params[:id])
     end
 
-    # Never trust parameters from the scary internet, only allow the white list through.
+  # Never trust parameters from the scary internet, only allow the white list through.
+  #NF edit: replaces attr_accessible from status.rb model....
     def status_params
-      params.require(:status).permit(:name, :content)
+      params.require(:status).permit(:content, :user_id)
     end
 end
