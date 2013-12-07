@@ -48,10 +48,12 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: zoorail_test
   pool: 5
-  username: zoorail
-  password:
+  database: d6c1dal47rrmdu
+  username: kuvilmhjzvvqkd
+  password: _VDmYPCGB-0Z_b4bi2XLJDexGV
+  host: ec2-54-235-246-73.compute-1.amazonaws.com
+  port: 5432
 
 production:
   adapter: postgresql
