@@ -1,6 +1,6 @@
 Zoorail::Application.routes.draw do
   devise_for :users
-  root to: 'statuses#index'
+  
   devise_scope :user do 
     get 'register', to: 'devise/registrations#new', as: :register
     get 'login', to: 'devise/sessions#new', as: :login
@@ -8,7 +8,7 @@ Zoorail::Application.routes.draw do
   end
   
   resources :statuses
-  
+  root to: 'statuses#index' 
  
 
   # The priority is based upon order of creation: first created -> highest priority.
