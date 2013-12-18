@@ -7,3 +7,7 @@ one:
 two:
   content: MyText
   user: StencilZoo
+  
+three:
+  content: "Hi there"
+  user: SF
