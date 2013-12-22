@@ -11,10 +11,35 @@
  *= require_self
  *= require_tree .
  */
+
 body {
   padding-top: 40px;
+  background: url('grunge_wall.png'); 
 }
 
+/*  
+	Body Elements
+	----------------------------------
+	----------------------------------
+*/
 .alert {
   margin-top: 10px;
+}
+.size_600_400 {
+ width: 600 px;
+ height: 400 px;
+}
+
+
+/*  
+	Footer
+	----------------------------------
+	----------------------------------
+*/
+
+.footer {
+  padding: 10px 0px;
+  margin-top: 10px; 
+  border-top: 1px solid #eeeeee;
+  
 }
