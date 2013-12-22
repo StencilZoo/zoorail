@@ -25,9 +25,9 @@ body {
 .alert {
   margin-top: 10px;
 }
-.size_600_400 {
- width: 600 px;
- height: 400 px;
+.size300x200 {
+ width: 300 px;
+ height: 200 px;
 }
 
 
