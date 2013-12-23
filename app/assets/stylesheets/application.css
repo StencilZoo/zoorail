@@ -26,9 +26,8 @@ body {
 .alert {
   margin-top: 10px;
 }
-.largethumbnail1 {
- width: 300 px;
- height: 200 px;
+.thumbnail {
+  background-color: #eeeeee;
 }
 
 
