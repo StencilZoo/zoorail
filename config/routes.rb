@@ -14,6 +14,10 @@ Zoorail::Application.routes.draw do
  
   get '/:id', to: 'profiles#show'
   
+  #test items below. may need to revise
+  resources :galleries
+  get 'gallery1', to: 'gallery#gallery1'
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
