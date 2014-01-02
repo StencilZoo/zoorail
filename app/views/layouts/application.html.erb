@@ -19,10 +19,8 @@
         </button>
         
             <!-- logo added here -->
-        <%= link_to(image_tag("elelphant_blur_light.png", :alt => "#", :class => "navbar-brand logo"), 
-        "http://www.stencilzoo.com") %>
-        
-        <a href="#" class="navbar-brand">StencilZoo</a>
+        <%= link_to(image_tag("elelphant_blur_light.png", :alt => "logo", :class => "navbar-brand logo"), "/") %>
+        <a href="/" class="navbar-brand">StencilZoo</a>
       </div>
       
          <!-- Collect the nav links, forms, and other content for toggling -->
@@ -31,7 +29,7 @@
           <!-- removed =  -->
           <li><% link_to "All Statuses", feed_path %></li>
           <li><%= link_to "Tumblr/Blog", "http://stencilzoo.tumblr.com/" %></li>
-          <li><%= link_to "Gallery", "#" %></li>
+          <li><%= link_to "Gallery", gallery1_path %></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <% if user_signed_in? %>

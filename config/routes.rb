@@ -11,12 +11,11 @@ Zoorail::Application.routes.draw do
   resources :statuses
   get 'feed', to: 'statuses#index', as: :feed
   root to: 'statuses#index' 
- 
+  get 'gallery1', to: 'statuses#gallery1'
+  
   get '/:id', to: 'profiles#show'
   
-  #test items below. may need to revise
-  resources :galleries
-  get 'gallery1', to: 'gallery#gallery1'
+  
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
