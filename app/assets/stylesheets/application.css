@@ -37,13 +37,8 @@ height: 50px;
 .alert {
   margin-top: 10px;
 }
-.indexthumbnail {
-  width: 100%;
-  height: 300px;
-}
-.gallerythumbnail {
-  width: 100%;
-  height: 100%;
+.col-of-3 {
+  max-height: 200px;
 }
 
 /*  
