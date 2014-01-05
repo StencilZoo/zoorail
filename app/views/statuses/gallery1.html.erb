@@ -1,40 +1,75 @@
 <div class="page-header">
   <h2>The Gallery  <small>A collection of my favorite art pieces</small></h2>
 </div>
+<!-- Sample Image Thumbnail with lightbox functionality
+  <div class="col-xs-6 col-sm-4 col-md-4">
+    <div class="thumbnail">
+      <%= image_tag("gallery/cheese.png", :class => "img-responsive lightbox_trigger", :alt => "...") %>
+      <div class="caption">
+        <h3>Image Label</h3>
+        <p>...and description...wxh</p>
+        <p><a href="/assets/gallery/cheese.png" class="btn btn-default lightbox_trigger" role="button">
+          <span class="glyphicon glyphicon-fullscreen"></span> Full View</a></p>
+      </div>
+    </div>
+  </div>
+-->
 
-<!-- create block to interate each image in status model-->
+  <div class="col-xs-6 col-sm-4 col-md-4">
+    <div class="thumbnail">
+      <%= image_tag("gallery/calavera1.png", :class => "img-responsive lightbox_trigger", :alt => "calavera1") %>
+      <div class="caption">
+        <h3>Skull and Rose</h3>
+        <p>Spray Paint on 11"x14" Black Canvas</p>
+        <p><a href="/assets/gallery/calavera1.png" class="btn btn-default lightbox_trigger" role="button">
+          <span class="glyphicon glyphicon-fullscreen"></span> Full View</a></p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
 <div class="row">
   <div class="col-xs-6 col-sm-4 col-md-4">
     <div class="thumbnail">
-      <%= image_tag("gallery/cheese.png", :class => "img-responsive", :alt => "...") %>
+      <%= image_tag("gallery/cheese.png", :class => "img-responsive lightbox_trigger", :alt => "cheese") %>
       <div class="caption">
-        <h3>Thumbnail label</h3>
-        <p>...</p>
-        <p><a href="#" class="btn btn-default" role="button">
+        <h3>Cheese!</h3>
+        <p>Markers on 10"x10" Wood Panel</p>
+        <p><a href="/assets/gallery/cheese.png" class="btn btn-default lightbox_trigger" role="button">
           <span class="glyphicon glyphicon-fullscreen"></span> Full View</a></p>
       </div>
     </div>
   </div>
   <div class="col-xs-6 col-sm-4 col-md-4">
     <div class="thumbnail">
-      <%= image_tag("gallery/koi1.png", :class => "img-responsive", :alt => "...") %>
+      <%= image_tag("gallery/koi1.png", :class => "img-responsive", :alt => "koi1") %>
       <div class="caption">
-        <h3>Thumbnail label</h3>
-        <p>...</p>
-        <p><a href="#" class="btn btn-default" role="button">
+        <h3>Koi #1</h3>
+        <p>Spray Paint on 20"x24" Wood Panel</p>
+        <p><a href="/assets/gallery/koi1.png" class="btn btn-default lightbox_trigger" role="button">
           <span class="glyphicon glyphicon-fullscreen"></span> Full View</a></p>
       </div>
     </div>
   </div>
-  <div class="col-xs-12 col-sm-4 col-md-4">
+  <div class="col-xs-6 col-sm-4 col-md-4">
     <div class="thumbnail">
-      <%= image_tag("gallery/koi2.png", :class => "img-responsive", :alt => "...") %>
+      <%= image_tag("gallery/koi2.png", :class => "img-responsive", :alt => "koi2") %>
       <div class="caption">
-        <h3>Thumbnail label</h3>
-        <p>...</p>
-        <p><a href="#" class="btn btn-default" role="button">
+        <h3>Koi #2</h3>
+        <p>Spray Paint & Markers on 20"x24" Wood Panel</p>
+        <p><a href="/assets/gallery/koi2.png" class="btn btn-default lightbox_trigger" role="button">
           <span class="glyphicon glyphicon-fullscreen"></span> Full View</a></p>
       </div>
     </div>
   </div>
+  
 </div>
