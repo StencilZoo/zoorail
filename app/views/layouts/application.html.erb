@@ -37,8 +37,8 @@
             <li><%= link_to current_user.full_name, edit_user_registration_path %></li>
             <li><%= link_to "Log Out", logout_path %></li>            
           <% else %>
-            <li><%= link_to "Register", register_path %></li>
-            <li><%= link_to "Log In", login_path %></li>
+            <li><% link_to "Register", register_path %></li>
+            <li><% link_to "Log In", login_path %></li>
           <% end %>
         </ul>
       </div>
@@ -60,7 +60,7 @@
         <p>Copyright 2013 StencilZoo.com</p>
     </div>
   </div>
-  
+  <!-- LightBox -->
   <script src="https://code.jquery.com/jquery-1.6.2.min.js"></script>
   <script>
   jQuery(document).ready(function($) {
