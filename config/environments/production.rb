@@ -20,8 +20,7 @@ Zoorail::Application.configure do
   # config.action_dispatch.rack_cache = true
 
   # Disable Rails's static asset server (Apache or nginx will already do this).
-  ## changed to true to compile assets for Heroku
-  config.serve_static_assets = true
+  config.serve_static_assets = false
 
   # Compress JavaScripts and CSS.
   config.assets.js_compressor = :uglifier
