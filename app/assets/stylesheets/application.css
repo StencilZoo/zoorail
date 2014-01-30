@@ -14,10 +14,11 @@
 
 body {
   padding-top: 40px;
-  padding-bottom: 20px;
-  background: url('grunge_wall.png'); 
+  padding-bottom: 20px; 
 }
-
+.background { 
+  background: url("grunge_wall.png"); 
+}
 
 /*  
 	Header
