@@ -10,6 +10,11 @@ end
 gem 'devise'
 gem 'simple_form'
 
+# pagination tool
+gem 'will_paginate', '~> 3.0'
+#to inegrate will_paginate with bootrap
+gem 'will_paginate-bootstrap'
+
 # Use postgresql as the database for Active Record
 gem 'pg'
 
