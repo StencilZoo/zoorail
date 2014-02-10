@@ -17,6 +17,7 @@ Zoorail::Application.routes.draw do
   get 'gallery_4', to: 'statuses#gallery_4'
   get 'gallery_5', to: 'statuses#gallery_5' 
   get 'gallery_6', to: 'statuses#gallery_6' 
+  get 'about', to: 'statuses#about'
   
   get '/:id', to: 'profiles#show'
   
