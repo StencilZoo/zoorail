@@ -22,5 +22,8 @@ module Zoorail
     
     #For Rails 4.0 not needed for Heroku?
     #config.assets.initialize_on_precompile = false
+    
+    #nav_lynx - to set class name for the current page
+    config.nav_lynx.selected_class = 'active'
   end
 end

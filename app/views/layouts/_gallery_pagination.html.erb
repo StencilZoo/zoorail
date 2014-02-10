@@ -1,0 +1,27 @@
+<div class="text-center">
+  <ul class="pagination pagination-lg">
+    
+    <%= nav_link_to '1', gallery_1_path, {:class => ''}, {:wrapper => 'li', :selected_class => 'active'} %>
+    <%= nav_link_to '2', gallery_2_path, {:class => ''}, {:wrapper => 'li', :selected_class => 'active'} %>
+    <%= nav_link_to '3', gallery_3_path, {:class => ''}, {:wrapper => 'li', :selected_class => 'active'} %>
+    <%= nav_link_to '4', gallery_4_path, {:class => ''}, {:wrapper => 'li', :selected_class => 'active'} %>
+    <%= nav_link_to '5', gallery_5_path, {:class => ''}, {:wrapper => 'li', :selected_class => 'active'} %>
+    <%= nav_link_to '6', gallery_6_path, {:class => ''}, {:wrapper => 'li', :selected_class => 'active'} %>
+    
+  </ul>
+</div>
+
+<!--
+boostrap pagination:
+<ul class="pagination">
+  <li class="disabled"><a href="#">&laquo;</a></li>
+  <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+  ...
+</ul>
+
+Nav Lynx with wrapper div:
+nav_link_to 'Page', some_page_path, {:class => 'link'}, {:wrapper => 'li', :wrapper_class => 'test-wrapper', 
+  :selected_class => 'active'}
+Outputs:
+<li class="active test-wrapper"><a href="example.com/page" class="link">Page</a></li>
+-->

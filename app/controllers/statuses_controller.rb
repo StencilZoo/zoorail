@@ -74,4 +74,5 @@ class StatusesController < ApplicationController
     def status_params
       params.require(:status).permit(:content, :user_id)
     end
+  
 end

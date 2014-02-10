@@ -1,0 +1,41 @@
+<%= render 'layouts/gallery_header' %>
+
+<div class="row">
+  <div class="col-xs-6 col-sm-4 col-md-4">
+    <div class="thumbnail">
+      <%= image_tag("gallery/drips1.jpg", :class => "img-responsive", :alt => "drips1") %>
+      <div class="caption">
+        <h3>Drips #1</h3>
+        <p>Spray Paint and Markers on 16"x18" Canvas</p>
+        <p><a href="/assets/gallery/drips1.jpg" class="btn btn-default lightbox_trigger" role="button">
+          <span class="glyphicon glyphicon-fullscreen"></span> Full View</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-xs-6 col-sm-4 col-md-4">
+    <div class="thumbnail">
+      <%= image_tag("gallery/cheese.jpg", :class => "img-responsive lightbox_trigger", :alt => "cheese") %>
+      <div class="caption">
+        <h3>Cheese!</h3>
+        <p>Markers on 10"x10" Wood Panel</p>
+        <p>Credits: Stencil1</p>
+        <p><a href="/assets/gallery/cheese.jpg" class="btn btn-default lightbox_trigger" role="button">
+          <span class="glyphicon glyphicon-fullscreen"></span> Full View</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-xs-6 col-sm-4 col-md-4">
+    <div class="thumbnail">
+      <%= image_tag("gallery/houndstooth1.jpg", :class => "img-responsive", :alt => "houndstooth1") %>
+      <div class="caption">
+        <h3>Houndstooth #1</h3>
+        <p>Acrylic Paint and Markers on Wood Panel</p>
+        <p>Credits: Stencil1</p>
+        <p><a href="/assets/gallery/houndstooth1.jpg" class="btn btn-default lightbox_trigger" role="button">
+          <span class="glyphicon glyphicon-fullscreen"></span> Full View</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<%= render 'layouts/gallery_pagination' %>

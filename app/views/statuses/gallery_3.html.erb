@@ -1,0 +1,30 @@
+<%= render 'layouts/gallery_header' %>
+
+<div class="row">
+  <div class="col-xs-12 col-sm-6 col-md-6">
+    <div class="thumbnail">
+      <%= image_tag("gallery/robotrock.jpg", :class => "img-responsive", :alt => "robotrock") %>
+      <div class="caption">
+        <h3>Robot Rock</h3>
+        <p>Spray Paint and Markers on 24"x12" Canvas</p>
+        <p>Credits: Daft Punk</p>
+        <p><a href="/assets/gallery/robotrock.jpg" class="btn btn-default lightbox_trigger" role="button">
+          <span class="glyphicon glyphicon-fullscreen"></span> Full View</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-xs-12 col-sm-6 col-md-6">
+    <div class="thumbnail">
+      <%= image_tag("gallery/risingdragons.jpg", :class => "img-responsive", :alt => "risingdragons") %>
+      <div class="caption">
+        <h3>Rising Dragons</h3>
+        <p>Spray Paint and Markers on 36"x12" Canvas</p>
+        <p>Credits: The Stencil Library</p>
+        <p><a href="/assets/gallery/risingdragons.jpg" class="btn btn-default lightbox_trigger" role="button">
+          <span class="glyphicon glyphicon-fullscreen"></span> Full View</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<%= render 'layouts/gallery_pagination' %>

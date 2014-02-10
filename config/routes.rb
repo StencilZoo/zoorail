@@ -12,6 +12,11 @@ Zoorail::Application.routes.draw do
   get 'feed', to: 'statuses#index', as: :feed
   root to: 'statuses#index' 
   get 'gallery_1', to: 'statuses#gallery_1'
+  get 'gallery_2', to: 'statuses#gallery_2'
+  get 'gallery_3', to: 'statuses#gallery_3'
+  get 'gallery_4', to: 'statuses#gallery_4'
+  get 'gallery_5', to: 'statuses#gallery_5' 
+  get 'gallery_6', to: 'statuses#gallery_6' 
   
   get '/:id', to: 'profiles#show'
   

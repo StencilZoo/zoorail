@@ -1,0 +1,17 @@
+<%= render 'layouts/gallery_header' %>
+
+<div class="row">
+  <div class="col-xs-6 col-sm-4 col-md-4">
+    <div class="thumbnail">
+      <%= image_tag("gallery/tigerhead.jpg", :class => "img-responsive", :alt => "tigerhead") %>
+      <div class="caption">
+        <h3>Wild Cat!</h3>
+        <p>Spray Paint on 16"x12" Wood Panel</p>
+        <p><a href="/assets/gallery/tigerhead.jpg" class="btn btn-default lightbox_trigger" role="button">
+          <span class="glyphicon glyphicon-fullscreen"></span> Full View</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<%= render 'layouts/gallery_pagination' %>

@@ -1,0 +1,42 @@
+<%= render 'layouts/gallery_header' %>
+
+<div class="row">
+  <div class="col-xs-6 col-sm-4 col-md-4">
+    <div class="thumbnail">
+      <%= image_tag("gallery/koi1.jpg", :class => "img-responsive", :alt => "koi1") %>
+      <div class="caption">
+        <h3>Koi #1</h3>
+        <p>Spray Paint on 20"x24" Wood Panel</p>
+        <p>Credits: The Stencil Library</p>
+        <p><a href="/assets/gallery/koi1.jpg" class="btn btn-default lightbox_trigger" role="button">
+          <span class="glyphicon glyphicon-fullscreen"></span> Full View</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-xs-6 col-sm-4 col-md-4">
+    <div class="thumbnail">
+      <%= image_tag("gallery/calavera1.jpg", :class => "img-responsive", :alt => "calavera1") %>
+      <div class="caption">
+        <h3>Skull and Rose</h3>
+        <p>Spray Paint on 11"x14" Black Canvas</p>
+        <p>Credits: Stencil1</p>
+        <p><a href="/assets/gallery/calavera1.jpg" class="btn btn-default lightbox_trigger" role="button">
+          <span class="glyphicon glyphicon-fullscreen"></span> Full View</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-xs-6 col-sm-4 col-md-4">
+    <div class="thumbnail">
+      <%= image_tag("gallery/koi2.jpg", :class => "img-responsive", :alt => "koi2") %>
+      <div class="caption">
+        <h3>Koi #2</h3>
+        <p>Spray Paint & Markers on 20"x24" Wood Panel</p>
+        <p>Credits: The Stencil Library</p>
+        <p><a href="/assets/gallery/koi2.jpg" class="btn btn-default lightbox_trigger" role="button">
+          <span class="glyphicon glyphicon-fullscreen"></span> Full View</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<%= render 'layouts/gallery_pagination' %>
